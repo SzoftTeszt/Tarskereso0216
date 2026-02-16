@@ -31,7 +31,7 @@ namespace TarsInit.Model
         public int? PrefMaxMagassagCm { get; set; }
         public string? Bio { get; set; }
 
-        //public ICollection<ProfilErdeklodes> ProfilErdeklodes { get; set; } = new List<ProfilErdeklodes>();
+        public ICollection<Profilerdeklodes> ProfilErdeklodes { get; set; } = new List<Profilerdeklodes>();
 
 
 

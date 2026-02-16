@@ -19,6 +19,8 @@ namespace TarsInit.Model
         public int Id { get; set; }
         public string Nev { get; set; }
 
+        public ICollection<Profilerdeklodes> Profilerdeklodessek { get; set; }
+
         public override string? ToString()
         {
             return $"{Nev}";

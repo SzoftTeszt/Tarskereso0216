@@ -24,7 +24,8 @@ namespace TarsInit.Model
         public int ProfilId { get; set; }
         public int ErdeklodesId { get; set; }
         public int Intenzitas { get; set; }
-
+        public Profil? Profil { get; set; }
+        public Erdeklodes? Erdeklodes { get; set; }
 
     }
 }
