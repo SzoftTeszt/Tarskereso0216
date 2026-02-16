@@ -23,7 +23,9 @@ namespace TarsInit.Data
         {
         }
 
-       
+        public DbSet<Erdeklodes> Erdeklodesek { get; set; }
+        public DbSet<Profil> Profilok { get; set; }
+        public DbSet<Profilerdeklodes> Profilerdeklodesek{get; set; }
 
 
 
